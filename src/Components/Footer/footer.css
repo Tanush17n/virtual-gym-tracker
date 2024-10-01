@@ -1,0 +1,53 @@
+.footer{
+    height: 15rem;
+    background-color: var(--MAJOR);
+    color: var(--MINOR);
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.allnames{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    color: white;
+}
+
+.footerName{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.footerIcons{
+    width: 25px;
+    margin-right: 1rem;
+}
+
+.footerEmail,
+.footerNumber,
+.footerLocation{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconBox{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2rem;
+
+    padding: 2rem;
+}
+
+.iconBox img{
+    width: 30px;
+}

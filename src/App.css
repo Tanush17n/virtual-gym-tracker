@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  font-size: 1.05rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --MAJOR: rgb(10, 77, 104);
+  --MINOR: rgb(8, 131, 149);
+  --SEC-TEXT-COLOR: rgb(5, 191, 219);
+  --RARE: rgb(0, 255, 202);
+}

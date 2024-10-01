@@ -1,0 +1,12 @@
+.allButtons{
+    background-color: var(--RARE);
+    width: 7rem;
+    height: 2.5rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3rem;
+}

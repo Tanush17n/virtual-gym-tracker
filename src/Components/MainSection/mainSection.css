@@ -1,0 +1,66 @@
+a{
+  text-decoration: none;
+}
+
+.mainSection {
+  display: flex;
+  /* flex-flow: column nowrap; */
+
+  gap: 0rem;
+  padding: 1rem;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  width: 100%;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10%;
+
+  /* transform: translateX(-12rem) translateY(-1rem); */
+}
+
+.mainName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.aboutSection {
+  width: 30rem;
+  font-size: 1.2rem;
+
+  /* transform: translateX(3rem); */
+}
+
+.heroSubtitle {
+  font-size: 1.4rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.code {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 1rem;
+}
+
+.allSections {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5rem;
+  flex-grow: 2;
+}

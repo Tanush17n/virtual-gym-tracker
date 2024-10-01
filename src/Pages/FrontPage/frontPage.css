@@ -1,0 +1,13 @@
+.frontPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.secondPage {
+  background-color: var(--MINOR);
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}

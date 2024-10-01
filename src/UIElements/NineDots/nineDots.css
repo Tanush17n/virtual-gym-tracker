@@ -1,0 +1,61 @@
+.nineButton {
+  background-color: transparent;
+  border: 0;
+}
+
+.nineButton:hover .fly-one,
+.nineButton:focus .fly-one {
+  animation: none;
+}
+
+.nineButton:hover .fly-two,
+.nineButton:focus .fly-two {
+  animation: none;
+}
+
+.mainNineDots {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.dots {
+  width: 8px;
+  height: 8px;
+  content: "";
+  border-radius: 10px;
+  margin: 2px;
+  background-color: var(--MINOR);
+}
+
+.fly-one {
+  animation: grow 1s ease 0s infinite forwards;
+}
+
+.fly-two {
+  animation: shrink 1s ease 0s infinite forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

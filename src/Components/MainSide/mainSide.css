@@ -1,0 +1,111 @@
+.mainSide {
+  display: flex;
+  
+  /* flex-grow: 1; */
+
+  flex-flow: column nowrap;
+}
+
+.icons {
+  width: 30px;
+}
+
+.sideImage{
+  overflow: hidden;
+  width: 900px;
+}
+
+.sideContainer{
+  display: flex;
+  flex-wrap: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItems {
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 1rem;
+}
+
+.listItems:hover .icons {
+  transform: scale(1.2);
+
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.listItems:hover {
+  filter: brightness(1.3);
+}
+
+.iconsList {
+  list-style-type: none;
+}
+
+.sideOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--MINOR);
+  flex-grow: 1;
+
+  background-color: var(--MAJOR);
+  font-size: 1.3rem;
+}
+
+.sideOneContents {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+
+  font-size: 1.6rem;
+  width: 80%;
+}
+
+.flipper {
+  animation: flip 3s ease-in-out infinite forwards;
+}
+
+.sideTwo {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  flex-grow: 2;
+  background-color: var(--MINOR);
+  color: var(--MAJOR);
+
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.dottedBackground {
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  25% {
+    transform: rotateX(180deg);
+  }
+  50% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
